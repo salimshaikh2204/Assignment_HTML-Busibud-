@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  margin: 20px 0;
+}
+.logo img {
+  width: 163px;
+  height: 47px;
+}
+
+.navbar .closebtn {
+  display: none;
+}
+.navbar ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.navbar ul li {
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.navbar ul li:nth-child(2),
+.navbar ul li:nth-child(3) {
+  display: flex;
+}
+.navbar ul li .dd {
+  color: #7c7373;
+}
+
+.hero-all-content {
+  display: flex;
+  width: 100%;
+}
+
+.inner-ctr.left {
+  padding: 5rem 3rem 0 8rem;
+  width: 60%;
+}
+
+.inner-ctr.right-img {
+  width: 40%;
+  height: 450px;
+  background: url("/images/Mask Group 1.png") no-repeat top center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title-descr .hero-title h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.title-descr .hero-descr.btn p {
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-right: 45px;
+  margin-bottom: 50px;
+}
+.title-descr .hero-descr.btn .btn {
+  cursor: pointer;
+  background: #1492e6;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.custom-shape-divider-bottom-1666724362 {
+  width: 100%;
+  margin-top: -70px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1666724362 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1666724362 .shape-fill {
+  fill: #f7f7f7;
+}
+
+.sec-ctr {
+  background-color: #f7f7f7;
+  padding: 5rem 8rem;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 10px 30px;
+  font-family: sans-serif;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.boxes .box {
+  background-color: #fff;
+  width: 280px;
+  height: auto;
+  padding-bottom: 30px;
+  border-radius: 17px;
+}
+.boxes .box h6 {
+  font-size: 13px;
+  font-family: sans-serif;
+  padding: 20px 0 15px;
+}
+.boxes .box p {
+  font-size: 13px;
+  text-align: left;
+  font-family: sans-serif;
+  padding: 0 20px;
+  line-height: 20px;
+}
+
+.image-with-text-section {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.image-with-text-section .heading {
+  padding-bottom: 8rem;
+}
+.image-with-text-section .custom-shape-divider-bottom-1666724362 {
+  z-index: 0;
+}
+.image-with-text-section .custom-shape-divider-bottom-1666724362 .shape-fill {
+  fill: #fff;
+}
+.image-with-text-section .boxes {
+  background-color: #fff;
+  width: 100%;
+}
+.image-with-text-section .imgeTextBox {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -140px;
+  z-index: 1;
+  background-color: transparent;
+}
+.image-with-text-section .imgeTextBox img {
+  display: block;
+  width: 200px;
+  height: auto;
+  float: left;
+}
+.image-with-text-section .imgeTextBox .lastImg {
+  width: 160px !important;
+}
+.image-with-text-section .imgeTextBox h6,
+.image-with-text-section .imgeTextBox p {
+  text-align: left;
+}
+.image-with-text-section .imgeTextBox p {
+  padding: 0 0;
+}
+
+.leftRight-section {
+  background-color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+.leftRight-section .leftRightBoxes {
+  text-align: left;
+  display: flex;
+}
+.leftRight-section .leftRightBoxes .leftBox {
+  width: 50%;
+  padding: 2rem 0 2rem 10rem;
+}
+.leftRight-section .leftRightBoxes .rightBox {
+  width: 50%;
+}
+.leftRight-section .leftRightBoxes .rightBox .descr-btn {
+  padding-right: 8rem;
+}
+.leftRight-section .leftRightBoxes .sameCss {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.leftRight-section .leftRightBoxes .sameCss .icon-heading {
+  display: flex;
+  align-items: center;
+}
+.leftRight-section .leftRightBoxes .sameCss .icon-heading img {
+  width: 50px;
+  height: auto;
+}
+.leftRight-section .leftRightBoxes .sameCss .icon-heading h6 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.leftRight-section .leftRightBoxes .sameCss .descr-btn p {
+  font-size: 16px;
+  margin: 10px 0 30px;
+}
+.leftRight-section .leftRightBoxes .sameCss .btn {
+  cursor: pointer;
+  background: #1492e6;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.Carousel {
+  padding: 0 8rem 3rem;
+}
+.Carousel .heading {
+  text-align: center;
+  margin: 30px 0 20px;
+}
+.Carousel .carsousel-bg-nd-title {
+  background-color: #f8fafc;
+  width: 100%;
+  height: 280px;
+  border-radius: 25px;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+}
+.Carousel .carsousel-bg-nd-title .sub-title {
+  padding-top: 30px;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Carousel .carsousel-bg-nd-title .sub-title img {
+  width: 50px;
+  height: auto;
+}
+.Carousel .carsousel-bg-nd-title .sub-title h6 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.Carousel .carsousel-bg-nd-title .rightArrow {
+  float: right;
+  position: relative;
+  bottom: -70px;
+  right: -30px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+}
+.Carousel .carousel-items {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: -11rem;
+  width: 100%;
+}
+.Carousel .carousel-items .item {
+  background: #fff;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+}
+.Carousel .carousel-items .item .img-name-sub-title-rating {
+  display: flex;
+}
+.Carousel .carousel-items .item .img-name-sub-title-rating .prsn-img {
+  margin-right: 5px;
+}
+.Carousel .carousel-items .item .img-name-sub-title-rating .name-rating {
+  display: flex;
+  margin-top: 5px;
+}
+.Carousel .carousel-items .item .img-name-sub-title-rating .name-rating .rating {
+  position: relative;
+  right: -2rem;
+  top: -5px;
+}
+.Carousel .carousel-items .item .img-name-sub-title-rating .name-rating .rating img {
+  width: 10px;
+  height: auto;
+}
+.Carousel .carousel-items .item .img-name-sub-title-rating p {
+  color: rgb(178, 178, 178);
+  font-size: 10px;
+  font-weight: 700;
+}
+.Carousel .carousel-items .item .descr {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 15px;
+  line-height: 15px;
+}
+
+.company-iconsSection .heading {
+  text-align: center;
+  padding: 5rem 0 3rem;
+}
+.company-iconsSection .items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 5rem 8rem;
+}
+.company-iconsSection .items .icons-title img {
+  height: 80px;
+}
+.company-iconsSection .items .icons-title .lastImg {
+  width: 80px;
+}
+.company-iconsSection .items .icons-title h6 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: 300px;
+}
+.footer .copyright {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15rem;
+  font-size: 12px;
+}
+.footer .c {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .header {
+    width: 100%;
+  }
+  .title-descr .hero-title h2 {
+    font-size: 35px;
+  }
+  .inner-ctr.left {
+    padding: 2rem;
+    width: 60%;
+  }
+  .sec-ctr {
+    padding: 2rem;
+  }
+  .heading {
+    padding: 0 20px;
+  }
+  .image-with-text-section .imgeTextBox {
+    margin-top: 0;
+  }
+  .leftRight-section .leftRightBoxes .leftBox {
+    padding: 2rem;
+  }
+  .leftRight-section .leftRightBoxes .rightBox .descr-btn {
+    padding-right: 2rem;
+  }
+  .leftRight-section .leftRightBoxes .sameCss .descr-btn p br {
+    display: none;
+  }
+  .Carousel .carousel-items .item:last-child {
+    display: none;
+  }
+  .company-iconsSection .items {
+    padding: 0 1rem 8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+  .navbar .box {
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .navbar .box .bar {
+    margin-bottom: 5px;
+    background-color: #000;
+    width: 30px;
+    height: 3px;
+  }
+  .navlinks {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .navlinks .closebtn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  .navbar ul li {
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+  }
+  .navbar ul li:last-child {
+    border-bottom: none;
+  }
+  .navbar ul li:nth-child(2),
+.navbar ul li:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    margin-right: -20px;
+  }
+  .inner-ctr.right-img {
+    display: none;
+  }
+  .inner-ctr.left {
+    width: 100%;
+  }
+  .title-descr .hero-title h2 {
+    font-size: 30px;
+  }
+  .custom-shape-divider-bottom-1666724362 {
+    margin-top: 0;
+  }
+  .sec-ctr {
+    padding: 1rem;
+  }
+  .heading h1 {
+    font-size: 20px;
+  }
+  .image-with-text-section .heading {
+    padding-bottom: 0;
+    padding-top: 3rem;
+  }
+  .company-iconsSection .items {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .image-with-text-section .boxes {
+    gap: 10px;
+  }
+  .leftRight-section .leftRightBoxes {
+    flex-direction: column;
+  }
+  .rightBox.phn,
+.leftBox.phn {
+    display: none !important;
+  }
+  .leftRight-section {
+    overflow: hidden;
+  }
+  .leftRight-section .leftRightBoxes .leftBox {
+    width: 90%;
+  }
+  .leftRight-section .leftRightBoxes .rightBox {
+    width: 90%;
+    padding: 2rem;
+  }
+  .Carousel {
+    padding: 2rem;
+  }
+  .Carousel .carousel-items .item:nth-child(2) {
+    display: none;
+  }
+  .Carousel .carsousel-bg-nd-title .sub-title {
+    margin-left: 2rem;
+  }
+}/*# sourceMappingURL=index.css.map */
